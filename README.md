@@ -64,7 +64,7 @@ import codecs
 with codecs.open('./data/ligatures_map', encoding='UTF-16LE') as ligature_file:
     ligatures_map = ligature_file.readlines()
 
-class_idx = 18313
+class_idx = 22597
 ligature = ligatures_map[class_idx]
 print(ligature)
 
