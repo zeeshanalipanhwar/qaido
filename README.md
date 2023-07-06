@@ -8,7 +8,7 @@ The following image contains five random Sindhi Ligatures in 14 random fonts.
  1. [Sindhi Script](#Sindhi-Script)
  2. [The Data](#the-data)
  3. [Tutorials](#Tutorials)
- 4. [Pre-trained Models](#Using-the-pretrained-model)
+ 4. [Pre-trained Models](#Pre-trained-models)
 
 ### Sindhi Script
 The Persian alphabet is a modification of the Arabic alphabet with four additional letters. It became the basis of Sindhi alphabet with two digraphs and eighteen new letters. The Sindhi alphabet has 52 letters, which is twice the number of letters in English, and covering wide varieties of sounds. The following figure shows the extended Perso-Arabic Sindhi script that is read from right to left.
@@ -42,24 +42,22 @@ The training and test data sets are arranged in the following data structure:
 train
 |
 ├── 0               // directory name is class index
-│   ├── 1.jpg
-│   ├── 2.jpg
+│   ├── 0.png
+│   ├── 1.png
 │   └── ...
 |
 ├── 1               
-│   ├── 1.jpg
-│   ├── 2.jpg
+│   ├── 0.png
+│   ├── 1.png
 |   └─── ...
 |
+⋮
 └── ...
 
 ```
 
 #### Mapping directory/class to ligature 
-Since the ligatures are in unicode format the directory names are kept as unique integers, starting from 0 to 18,568.
-The mapping from index to ligature can created using the mapping files present in `./data/ligatures_map` for 18,569 classes
- and `./data/ligatures_map_2k` for 2,000 classes. These mapping files can also be downloaded alongside the data set. 
- The code for reading the mapping is as follows:
+Use the following code to map a class directory to its corresponding ligature.
  
 ```python
 import codecs
@@ -73,4 +71,11 @@ print(ligature)
 >>>  ‫ﺟﮭﻨﮕﻠﻴﭙﮣﻮ‬
 ``` 
 
+### Tutorials
+For tutorials and code, use those of Qaida from ![here](https://github.com/AtiqueUrRehman/qaida/tree/master#Tutorials).
 
+### Pre-trained Models
+Following table shows different models trained on different sets of data and their performance on their corresponding test sets of 64 unseen fonts.
+| Name  | Precision | Recall | Accuracy | $F_1$-Score | Size | Link | MD5 Checksum |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| `SLRNet-22597`   | 92.55% | 91.85% | 91.85% | 91.95% | ??? MBytes      | [Download](https://drive.google.com/file/d/1kCOB_xrEbnr8JzAhWuskL2h0J81Hn8Ec/view?usp=sharing)|`b64e527360d21f55d35f0c684d6cad06`|
