@@ -80,3 +80,13 @@ Following table shows different models trained on different sets of data and the
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `SLRNet-22597` | 92.55% | 91.85% | 91.85% | 91.95% | 173.8 MBytes | [Download](https://drive.google.com/file/d/1-9YulWRPLeBmqS_SlsPNtLIDd1qEwY-K) | `7df8624c80d9ebf2d04fb250c3be89bb` |
 | `SLRNet-5000`  |        |        | 90.00% |        | 105 MBytes   | [Download](https://drive.google.com/file/d/1-E_FE7FoHankNhZA6TK7TwBacbE45Vuo) | `d73e1c98ae23b4c64c638aebb06fbb46` |
+
+## License
+This project is licensed under the terms of the [Creative Commons license](https://github.com/zeeshanalipanhwar/qaido/blob/master/LICENSE).
+
+## Acknowledgements
+This project structure followed guidlines from [Qaida]([https://github.com/DongjunLee/hb-base](https://github.com/AtiqueUrRehman/qaida)) repository.
+
+## Author
+`Maintainer` [Zeeshan Ali](https://github.com/zeeshanalipanhwar) (zapt1860@gmail.com)
+
