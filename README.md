@@ -29,3 +29,43 @@ A collection of ![104,145 unique words](data/sindhi_words.txt) has been extracte
 | `train_200.tar.xz`     | training set images   |200   | 40,000    |24.1 MBytes      | [Download](https://drive.google.com/file/d/1Rl5COEQFn0-xN6_LJeSLvyyS9XUMi5Kj/view?usp=sharing)|`a42b6a78a2f73d826b7b8ccbdaf5a60b`|
 | `test_200.tar.xz`     | test set images       |200   | 11,200    | 5.9 MBytes      | [Download](https://drive.google.com/file/d/1RX_462Ecq8Mj2srmdEh2l5-w0hrU7T_o/view?usp=sharing)|`bc0aa5b0307d5a6e122acc2767d25c04`|
 | `ligature_map_200`        | index to ligature mapping|200  | 200     | 1.4 KBytes      | [Download](https://drive.google.com/file/d/1n2Gcv1MUHcxYg0Y2nAIdNh3U7XoSKu8Z/view?usp=sharing)|`d8c38d3398b97549204d5d2c9a8b13ce`|
+
+#### Data format
+The training and test data sets are arranged in the following data structure:
+
+```markdown
+train
+|
+├── 0               // directory name is class index
+│   ├── 1.jpg
+│   ├── 2.jpg
+│   └── ...
+|
+├── 1               
+│   ├── 1.jpg
+│   ├── 2.jpg
+|   └─── ...
+|
+└── ...
+
+```
+
+#### Mapping directory/class to ligature 
+Since the ligatures are in unicode format the directory names are kept as unique integers, starting from 0 to 18,568.
+The mapping from index to ligature can created using the mapping files present in `./data/ligatures_map` for 18,569 classes
+ and `./data/ligatures_map_2k` for 2,000 classes. These mapping files can also be downloaded alongside the data set. 
+ The code for reading the mapping is as follows:
+ 
+```python
+import codecs
+with codecs.open('./data/ligatures_map', encoding='UTF-16LE') as ligature_file:
+    ligatures_map = ligature_file.readlines()
+
+class_idx = 18313
+ligature = ligatures_map[class_idx]
+print(ligature)
+
+>>>  نستعلیق
+``` 
+
+
