@@ -12,5 +12,6 @@ The following image contains five random Sindhi Ligatures in 14 random fonts.
 
 ### Sindhi Script
 The Persian alphabet is a modification of the Arabic alphabet with four additional letters. It became the basis of Sindhi alphabet with two digraphs and eighteen new letters. The Sindhi alphabet has 52 letters, which is twice the number of letters in English, and covering wide varieties of sounds. The following figure shows the extended Perso-Arabic Sindhi script that is read from right to left.
+![](doc/img/sindhi_alphabet.png)
 
 
