@@ -65,7 +65,7 @@ class_idx = 18313
 ligature = ligatures_map[class_idx]
 print(ligature)
 
->>>  نستعلیق
+>>>  ‫ﺟﮭﻨﮕﻠﻴﭙﮣﻮ‬
 ``` 
 
 
