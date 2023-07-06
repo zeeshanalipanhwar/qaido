@@ -22,11 +22,18 @@ A collection of ![104,145 unique words](data/sindhi_words.txt) has been extracte
 | --- | --- |--- | --- | --- |--- |--- |
 | `train.tar.xz`        | training set images       | 22,597  | 4,338,624   | 2.65 GBytes   | [Download](https://drive.google.com/file/d/1hC0h_tnaL2AcuBiB6l-_NZTOvS4dFHXo) |`c1df00bb2c8f3ca8f86981c173e11e60`|
 | `test.tar.xz`         | test set images           | 22,597  | 1,446,208   | 905 MBytes    | [Download](https://drive.google.com/file/d/1EvM5SqDruOn1RBHf7vFk2ITS3sze90og) |`393076c1f014a28d5bee285d4cb78b90`|
-| `ligature_map`        | index to ligature mapping | 22,597  | 22,597      | 219 KBytes    | [Download](https://drive.google.com/file/d/15DeuaZncztB837WidRKuIuRWrzM981IF) |`d5afa69dea351c1df16da7f785d4b42c`|
+| `ligatures_map`       | index to ligature mapping | 22,597  | 22,597      | 219 KBytes    | [Download](https://drive.google.com/file/d/15DeuaZncztB837WidRKuIuRWrzM981IF) |`d5afa69dea351c1df16da7f785d4b42c`|
 | `train1.tar.xz`       | training set images       | 55      | 10,560      | 4.1 MBytes    | [Download](https://drive.google.com/file/d/1yglPnEck2mMpFyobP5wsPjHknIiNpJ06) |`7d18159f33de2caa0dfccf3c91b8549b`|
 | `train2.tar.xz`       | training set images       | 1,119   | 214,848     | 116.5 MBytes  | [Download](https://drive.google.com/file/d/1oanftujv8CBFj9ezR5tQjH-MawvYsjpf) |`86350c846d471b0de55b248f73a5be4f`|
 | `train3.tar.xz`       | training set images       | 7,031   | 1,349,952   | 823.9 MBytes  | [Download](https://drive.google.com/file/d/1v0ofBdKj-HPIR3WohK9Rx-4e26bbzTju) |`e05f2fa53547a453f026101ba18dfa0c`|
 | `train4.tar.xz`       | training set images       | 16,472  | 1,349,952   | 1.94 GBytes   | [Download](https://drive.google.com/file/d/18uqBLOdJDxxgXA9MnmsJlmc35FBFBDYt) |`1e4d0402347c47dfe40e850258278f7e`|
+| `train_5000.tar.xz`   | training set images       | 5,000   | 960,000     | 581.9 MBytes  | [Download](https://drive.google.com/file/d/1BfMVm-L2ORngQCjpDDitTiyLylP5zImN) |`c1db3f5e8c530499aaa9da7e9c731f38`|
+| `test1.tar.xz`        | test set images           | 55      | 3,520       | 1.4 MBytes    | [Download](https://drive.google.com/file/d/1jUqVYGOJLeakr5wpNrL9dVT34MXnwAdF) |`6e9c9ee73607da4201504566994b6e09`|
+| `test2.tar.xz`        | test set images           | 1,119   | 7,616       | 38.7 MBytes   | [Download](https://drive.google.com/file/d/1gAT9jhqkYj2WNEbtR9iCAyBGkMd4zbxa) |`79aa49ba9c1638847fdaf9c58990f7c8`|
+| `test3.tar.xz`        | test set images           | 7,031   | 449,984     | 274.8 MBytes  | [Download](https://drive.google.com/file/d/1VIYlPKJI1EnFekOADswDpdVrhyhi9dWe) |`4598e9a30cc989a9a4db7c17a76ac531`|
+| `test4.tar.xz`        | test set images           | 16,472  | 1,054,208   | 662.5 MBytes  | [Download](https://drive.google.com/file/d/1euqfYVJdwmwwwYjvYCp8MoIenwN3ehI9) |`b0df91021bb4d0c6396bb31a2e0c6517`|
+| `test_5000.tar.xz`    | test set images           | 5,000   | 320,000     | 194.1 MBytes  | [Download](https://drive.google.com/file/d/1P0Y9yxH3ZRD1YQ0rYaLtccKMa_3L_1wH) |`8bf0d00db37004ca01595f9133241b01`|
+| `ligatures_map_5000`  | index to ligature mapping | 5,000   | 5,000       | 42 KBytes     | [Download](https://drive.google.com/file/d/1kwFWvmLloyDb7bLIq0stJEyq4KFh1ymP) |`93cf0c3228e42addaca9774a5fe07c30`|
 
 #### Data format
 The training and test data sets are arranged in the following data structure:
