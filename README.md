@@ -4,5 +4,8 @@ Qaido is a Large-Scale Font-Diverse Sindhi Ligature Recognition benchmark datase
 The following image contains five random Sindhi Ligatures in 14 random fonts.
 ![](doc/img/sprite_sindhi.png)
 
-The following image contains the ligature ‫ﺟﮭﻨﮕﻠﻴﭙﮣﻮ‬ in 256 Fonts.
-![](doc/img/lig_in_256_fonts.png)
+## Contents
+ 1. [The extended Perso-Arabic Script for Sindhi](#Sindhi-Script)
+ 2. [The Data](#the-data)
+ 3. [Tutorials](#Tutorials)
+ 4. [Pre-trained Models](#Using-the-pretrained-model)
