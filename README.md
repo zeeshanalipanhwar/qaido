@@ -76,7 +76,7 @@ For tutorials and code, use those of Qaida from ![here](https://github.com/Atiqu
 
 ### Pre-trained Models
 Following table shows different models trained on different sets of data and their performance on their test sets of 64 unseen fonts.
-| Name  | Precision | Recall | Accuracy | $F_1-Score$ | Size | Link | MD5 Checksum |
+| Name  | Precision | Recall | Accuracy | $\mathbf{F_1-Score}$ | Size | Link | MD5 Checksum |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `SLRNet-22597` | 92.55% | 91.85% | 91.85% | 91.95% | 173.8 MBytes | [Download](https://drive.google.com/file/d/1-9YulWRPLeBmqS_SlsPNtLIDd1qEwY-K) | `7df8624c80d9ebf2d04fb250c3be89bb` |
 | `SLRNet-5000`  |        |        | 90.00% |        | 105 MBytes   | [Download](https://drive.google.com/file/d/1-E_FE7FoHankNhZA6TK7TwBacbE45Vuo) | `d73e1c98ae23b4c64c638aebb06fbb46` |
