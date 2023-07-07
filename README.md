@@ -85,7 +85,7 @@ Following table shows different models trained on different sets of data and the
 This project is licensed under the terms of the [Creative Commons license](https://github.com/zeeshanalipanhwar/qaido/blob/master/LICENSE).
 
 ## Acknowledgements
-This project structure followed guidlines from [Qaida]([https://github.com/DongjunLee/hb-base](https://github.com/AtiqueUrRehman/qaida)) repository.
+This project structure followed guidlines from [Qaida](https://github.com/AtiqueUrRehman/qaida) repository.
 
 ## Author
 `Maintainer` [Zeeshan Ali](https://github.com/zeeshanalipanhwar) (zapt1860@gmail.com)
