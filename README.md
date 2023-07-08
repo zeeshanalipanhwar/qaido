@@ -79,7 +79,7 @@ Following table shows different models trained on different sets of data and the
 | Name  | Precision | Recall | Accuracy | $\mathbf{F_1-Score}$ | Size | Link | MD5 Checksum |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `SLRNet-22597` | 92.55% | 91.85% | 91.85% | 91.95% | 173.8 MBytes | [Download](https://drive.google.com/file/d/1-9YulWRPLeBmqS_SlsPNtLIDd1qEwY-K/view?usp=sharing) | `7df8624c80d9ebf2d04fb250c3be89bb` |
-| `SLRNet-5000`  |   __   |   __   | 90.00% |   __   | 105 MBytes   | [Download](https://drive.google.com/file/d/1-E_FE7FoHankNhZA6TK7TwBacbE45Vuo/view?usp=sharing) | `d73e1c98ae23b4c64c638aebb06fbb46` |
+| `SLRNet-5000`  | _      | _      | 90.00% | _      | 105 MBytes   | [Download](https://drive.google.com/file/d/1-E_FE7FoHankNhZA6TK7TwBacbE45Vuo/view?usp=sharing) | `d73e1c98ae23b4c64c638aebb06fbb46` |
 
 ## License
 This project is licensed under the terms of the [Creative Commons license](https://github.com/zeeshanalipanhwar/qaido/blob/master/LICENSE).
