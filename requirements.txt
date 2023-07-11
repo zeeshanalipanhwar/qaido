@@ -1,6 +1,6 @@
+openapi-codec
 torch
 torchvision
-codecs
 numpy
 matplotlib
 scipy
