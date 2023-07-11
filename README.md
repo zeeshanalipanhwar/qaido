@@ -22,7 +22,7 @@ A collection of ![104,145 unique words](data/sindhi_words.txt) has been extracte
 | --- | --- |--- | --- | --- |--- |--- |
 | `train.tar.xz`        | training set images       | 22,597  | 4,338,624   | 2.65 GBytes   | [Download](https://drive.google.com/file/d/1hC0h_tnaL2AcuBiB6l-_NZTOvS4dFHXo/view?usp=sharing) |`c1df00bb2c8f3ca8f86981c173e11e60`|
 | `test.tar.xz`         | test set images           | 22,597  | 1,446,208   | 905 MBytes    | [Download](https://drive.google.com/file/d/1EvM5SqDruOn1RBHf7vFk2ITS3sze90og/view?usp=sharing) |`393076c1f014a28d5bee285d4cb78b90`|
-| `ligatures_map`       | index to ligature mapping | 22,597  | 22,597      | 219 KBytes    | [Download](https://drive.google.com/file/d/15DeuaZncztB837WidRKuIuRWrzM981IF/view?usp=sharing) |`d5afa69dea351c1df16da7f785d4b42c`|
+| `ligatures_map`       | index to ligature mapping | 22,597  | 22,597      | 219 KBytes    | [Download](https://drive.google.com/file/d/1LEjsDRrw-04oXeYLtsDIKUvLJVZNjhRh/view?usp=sharing) |`d5afa69dea351c1df16da7f785d4b42c`|
 | `train1.tar.xz`       | training set images       | 55      | 10,560      | 4.1 MBytes    | [Download](https://drive.google.com/file/d/1yglPnEck2mMpFyobP5wsPjHknIiNpJ06/view?usp=sharing) |`7d18159f33de2caa0dfccf3c91b8549b`|
 | `train2.tar.xz`       | training set images       | 1,119   | 214,848     | 116.5 MBytes  | [Download](https://drive.google.com/file/d/1oanftujv8CBFj9ezR5tQjH-MawvYsjpf/view?usp=sharing) |`86350c846d471b0de55b248f73a5be4f`|
 | `train3.tar.xz`       | training set images       | 7,031   | 1,349,952   | 823.9 MBytes  | [Download](https://drive.google.com/file/d/1v0ofBdKj-HPIR3WohK9Rx-4e26bbzTju/view?usp=sharing) |`e05f2fa53547a453f026101ba18dfa0c`|
