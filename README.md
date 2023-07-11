@@ -75,7 +75,7 @@ print(ligature)
 For tutorials and code, use those of Qaida from ![here](https://github.com/AtiqueUrRehman/qaida/tree/master#Tutorials).
 
 ### Pre-trained Models
-The following table shows the pretrained models and their performance on their respective test sets of 64 unseen fonts.
+The following table shows the models and their performance on their respective test sets of 64 unseen fonts.
 | Name  | Precision | Recall | Accuracy | $\mathbf{F_1-Score}$ | Size | Link | MD5 Checksum |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `SLRNet-22597` | 92.55% | 91.85% | 91.85% | 91.95% | 173.8 MBytes | [Download](https://drive.google.com/file/d/1-9YulWRPLeBmqS_SlsPNtLIDd1qEwY-K/view?usp=sharing) | `7df8624c80d9ebf2d04fb250c3be89bb` |
