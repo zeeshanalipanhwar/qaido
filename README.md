@@ -16,7 +16,7 @@ The Persian alphabet is a modification of the Arabic alphabet with four addition
 <img src="doc/img/sindhi_alphabet.png" width="500" height="300" />
 
 ### The Data
-A collection of ![104,145 unique words](data/sindhi_words.txt) has been extracted from four different sources, ![Shah Jo Risalo](https://github.com/amarfayazburiro/shah-sachal-sindhi-language/blob/master/Risalo(without-airab).txt), ![Sachal Jo Sindhi Kalaam](https://github.com/amarfayazburiro/shah-sachal-sindhi-language/blob/master/Corpus.txt), ![Quran Jo Tarjumo](https://github.com/zeeshanalipanhwar/quran-jo-tarjumo), and ![Digital South Asia Library](https://dsal.uchicago.edu/about.html). A total of ![22,597 Sindhi ligatures](data/ligatures.txt) are extracted from the collection of the words. These ligatures are written on gray images of size $80\times80$ and labeled with the ligatures as classes. The following table contains all sets of synthetic data.
+A collection of [104,145 unique words](data/sindhi_words.txt) has been extracted from four different sources, [Shah Jo Risalo](https://github.com/amarfayazburiro/shah-sachal-sindhi-language/blob/master/Risalo(without-airab).txt), [Sachal Jo Sindhi Kalaam](https://github.com/amarfayazburiro/shah-sachal-sindhi-language/blob/master/Corpus.txt), [Quran Jo Tarjumo](https://github.com/zeeshanalipanhwar/quran-jo-tarjumo), and [Digital South Asia Library](https://dsal.uchicago.edu/about.html). A total of [22,597 Sindhi ligatures](data/ligatures.txt) are extracted from the collection of the words. These ligatures are written on gray images of size $80\times80$ and labeled with the ligatures as classes. The following table contains all sets of synthetic data.
 
 | Name  | Content | Classes | Examples | Size | Link | MD5 Checksum|
 | --- | --- |--- | --- | --- |--- |--- |
@@ -72,7 +72,7 @@ print(ligature)
 ``` 
 
 ### Tutorials
-For tutorials and code, use those of Qaida from ![here](https://github.com/AtiqueUrRehman/qaida/tree/master#Tutorials).
+For tutorials and code, use those of Qaida from [here](https://github.com/AtiqueUrRehman/qaida/tree/master#Tutorials).
 
 ### Pre-trained Models
 The following table shows the models and their performance on their respective test sets of 64 unseen fonts.
@@ -81,7 +81,7 @@ The following table shows the models and their performance on their respective t
 | `SLRNet-22597` | 92.55% | 91.85% | 91.85% | 91.95% | 173.8 MBytes | [Download](https://drive.google.com/file/d/1-9YulWRPLeBmqS_SlsPNtLIDd1qEwY-K/view?usp=sharing) | `7df8624c80d9ebf2d04fb250c3be89bb` |
 | `SLRNet-5000`  | _      | _      | 90.00% | _      | 105 MBytes   | [Download](https://drive.google.com/file/d/1-E_FE7FoHankNhZA6TK7TwBacbE45Vuo/view?usp=sharing) | `d73e1c98ae23b4c64c638aebb06fbb46` |
 
-For a live demo of the SLRNet-22597 view ![qaido](https://huggingface.co/spaces/ZeeshanAli/qaido) on HuggingFace spaces.
+For a live demo of the SLRNet-22597 view [qaido](https://huggingface.co/spaces/ZeeshanAli/qaido) on HuggingFace spaces.
 
 ## License
 This project is licensed under the terms of the [Creative Commons license](https://github.com/zeeshanalipanhwar/qaido/blob/master/LICENSE).
