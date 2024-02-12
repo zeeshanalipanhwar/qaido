@@ -89,6 +89,20 @@ This project is licensed under the terms of the [Creative Commons license](https
 ## Acknowledgements
 This project structure followed guidlines from [Qaida](https://github.com/AtiqueUrRehman/qaida) repository.
 
+## Citation
+```
+@INPROCEEDINGS{10410385,
+  author={Ali, Zeeshan and Khan, Safdar Abbas and Khuram Shahzad, M. and Bilal, H. S. M.},
+  booktitle={2023 International Conference on Frontiers of Information Technology (FIT)}, 
+  title={A Large-Scale Font-Diverse Sindhi Ligature Recognition System}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={132-137},
+  keywords={Deep learning;Text recognition;Pipelines;Optical character recognition;Text detection;Benchmark testing;Rivers;Arabic Script;Sindhi Language;OCR;Deep Learning;Computer Vision;Digital Image Processing},
+  doi={10.1109/FIT60620.2023.00033}}
+```
+
 ## Author
 `Maintainer` [Zeeshan Ali](https://github.com/zeeshanalipanhwar) (zapt1860@gmail.com)
 
